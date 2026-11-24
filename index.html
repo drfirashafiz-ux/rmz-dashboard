@@ -14,9 +14,61 @@
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- Google Fonts: Cairo -->
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap"
-          rel="stylesheet">
+    <!-- Thmanyah Sans Font -->
+    <style>
+        @font-face {
+            font-family: 'Thmanyah Sans';
+            src: url('fonts/thmanyahsans-Light.woff2') format('woff2');
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Thmanyah Sans';
+            src: url('fonts/thmanyahsans-Regular.woff2') format('woff2');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Thmanyah Sans';
+            src: url('fonts/thmanyahsans-Medium.woff2') format('woff2');
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Thmanyah Sans';
+            src: url('fonts/thmanyahsans-Bold.woff2') format('woff2');
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Thmanyah Sans';
+            src: url('fonts/thmanyahsans-Black.woff2') format('woff2');
+            font-weight: 900;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        body {
+            font-family: 'Thmanyah Sans', sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        ::selection {
+            background: #C09328;
+            color: white;
+        }
+    </style>
 
     <script>
         tailwind.config = {
@@ -32,21 +84,6 @@
             }
         }
     </script>
-
-    <style>
-        body {
-            font-family: 'Cairo', sans-serif;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        ::selection {
-            background: #C09328;
-            color: white;
-        }
-    </style>
 </head>
 
 <body class="bg-brandBgLight text-gray-800 antialiased min-h-screen flex flex-col">
